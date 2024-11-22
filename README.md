@@ -1,10 +1,3 @@
-1. git clone --recursive https://github.com/TheWildJames/android_kernel_google_zuma.git -b 15.0.0-sultan
-2. cd ./android_kernel_google_zuma
-3. make zuma_defconfig
-4. make -j$(nproc)
-5. cp ./out/arch/arm64/boot/Image.lz4 ../Image.lz4
-6. cat ./out/google-modules/soc/gs/arch/arm64/boot/dts/google/*.dtb > ../dtb
-
 # How do I submit patches to Android Common Kernels
 
 1. BEST: Make all of your changes to upstream Linux. If appropriate, backport to the stable releases.
