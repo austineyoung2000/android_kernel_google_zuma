@@ -8,3 +8,4 @@
 export KERNEL_SRC := $(srctree)/google-modules
 
 obj-y += shusky/display/
+obj-y += akita/display/
